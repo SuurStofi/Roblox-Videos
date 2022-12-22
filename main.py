@@ -2,7 +2,6 @@ from PIL import Image
 import cv2
 import time
 import os
-#import vlc
 from moviepy.editor import *
 
 
@@ -12,7 +11,7 @@ def turnascii(image_path):
     width, height = img.size
     aspect_ratio = height/width
     new_width = 50
-    new_height = 38#aspect_ratio * new_width * 0.55
+    new_height = 38
     img = img.resize((new_width, int(new_height)))
 
     returnmessage = ""
