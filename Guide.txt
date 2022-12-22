@@ -1,0 +1,14 @@
+Install python, after that open cmd.exe and typu that commands
+
+py -m pip install pillow
+py -m pip install opencv-python
+py -m pip install moviepy
+
+after that, open a downloaded .py file, and create a text document, and rename it into a frame.txt
+
+if you have done that, download any video, *Must have 360p quality and maximum 2 minutes long*
+and paste it into a created folder with everything you have done before
+now, you should rename the video into input.mp4
+Now, create a folder and name it frames
+
+After all of operations, execute a code
